@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>This is sample app for i18n feature.</h1>
 
         <p className={styles.description}>
-          Here is index page. router.asPath is{' '}
+          Here is Page1 page. router.asPath is{' '}
           <code className={styles.code}>{asPath}</code>. router.locale is{' '}
           <code className={styles.code}>{locale}</code>.
         </p>
