@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Home({ pageName }) {
   const { asPath, locale } = useRouter()
   return (
     <div className={styles.container}>
@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>This is sample app for i18n feature.</h1>
 
         <p className={styles.description}>
-          Here is index page. router.asPath is{' '}
+          Here is {pageName}. router.asPath is{' '}
           <code className={styles.code}>{asPath}</code>. router.locale is{' '}
           <code className={styles.code}>{locale}</code>.
         </p>
