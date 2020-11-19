@@ -67,7 +67,7 @@ export default function Home() {
                 <code
                   className={
                     styles.code
-                  }>{`<Link  href='/' locale='ja'/>`}</code>
+                  }>{`<Link  href='/' locale='ja'>`}</code>
               </p>
             </a>
           </Link>
@@ -79,7 +79,7 @@ export default function Home() {
                 <code
                   className={
                     styles.code
-                  }>{`<Link  href='/page1' locale='ja'/>`}</code>
+                  }>{`<Link  href='/page1' locale='ja'>`}</code>
               </p>
             </a>
           </Link>
